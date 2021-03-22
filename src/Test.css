@@ -1,0 +1,14 @@
+html , body , #root{
+    width: 1920px;
+    height: 1080px;
+}
+.MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: #134F71;
+}
+.block{
+    background-color:#134F71;
+    right: 14px;
+    bottom: 14px;
+    
+}

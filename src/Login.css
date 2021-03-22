@@ -1,0 +1,122 @@
+html , body , #root , .Login , .landing{
+  width: 100vw;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left.col , .right.col{
+  width: 50%;
+  height: 100%;
+}
+
+.loginrightblock {
+  width: 724px;
+  height: 515px;
+  position: center;
+}
+
+img.rounded.mx-auto.d-block {
+  left: 225px;
+  width: 750px;
+  height: 406px;
+  position: center;
+  margin-top: 337px;
+}
+
+
+.topic1 {
+  width: 724.00px;
+    height: 72.00px;
+    left: 1106.00px;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: bold;
+  font-size: 60px;
+  color: #134F71;
+  padding-top: 272px;
+  
+    
+}
+
+form{
+ padding-top: 100px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  /* border-radius: 0; */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+}
+
+.labelname {
+  font-size: 28px;
+  color: #134F71;
+  font-family: SF Pro Display;
+  font-weight: medium;
+  margin-left: 267px;
+}
+
+input#formBasicUsername {
+  font-size: 24px;
+  width: 428px;
+  height: 55px;
+  margin-left: 267px;
+}
+
+.labelpassword {
+  font-size: 28px;
+  color: #134F71;
+  font-family: SF Pro Display;
+  font-weight: medium;
+  margin-left: 267px;
+}
+
+input#formBasicPassword {
+  font-size: 24px;
+  width: 428px;
+  height: 55px;
+  margin-left: 267px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+}
+
+.labelcheck{
+  margin-left: 267px;
+  font-size: 28px;
+  color: #134F71;
+  margin-top: 47px;
+}
+label.form-check-label {
+  padding-left: 20px;
+}
+
+button.btn.btn-primary {
+  font-size: 24px;
+  width: 434px;
+  height: 73px;
+}
+
+.btnLogin{
+  margin-left: 267px;
+  margin-top: 52px;
+}

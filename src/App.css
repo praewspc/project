@@ -1,0 +1,128 @@
+.col1 {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 1920px;
+  padding-top: 337px;
+}
+
+.col2 {
+  padding-top: 272px;
+}
+
+img{
+  top: 337px;
+  left: 215px;
+  bottom: 337px;
+  /*width: 745px;*/
+  /*height: 406px;*/
+  
+}
+
+.topic {
+  /* padding-top: 272px; */
+  
+  /*width: 724px;*/
+  /*height: 72px;*/
+  /*padding-right: 90px;*/
+  left: 1106px;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-weight: bold;
+  font-size: 60px;
+  color: #134F71;
+  
+}
+
+p {
+  margin-top: 0;
+}
+
+form {
+  display: block;
+  margin-top: 51px;
+  margin-left: 267px;
+  margin-right: 211px;
+  /* margin-bottom: 252px; */
+}
+
+.form-group {
+  margin-bottom: 51px;
+  
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  /* border-radius: 0; */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+}
+
+.labelname {
+  font-size: 28px;
+  color: #134F71;
+  font-family: SF Pro Display;
+  font-weight: medium;
+  margin-left: 267px;
+}
+
+input#formBasicUsername {
+  font-size: 24px;
+  width: 428px;
+  height: 55px;
+  margin-left: 267px;
+}
+
+.labelpassword {
+  font-size: 28px;
+  color: #134F71;
+  font-family: SF Pro Display;
+  font-weight: medium;
+  margin-left: 267px;
+}
+
+input#formBasicPassword {
+  font-size: 24px;
+  width: 428px;
+  height: 55px;
+  margin-left: 267px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+}
+
+.labelcheck{
+  margin-left: 267px;
+  font-size: 28px;
+  color: #134F71;
+  margin-top: 47px;
+}
+label.form-check-label {
+  padding-left: 20px;
+}
+
+button.btn.btn-primary {
+  font-size: 24px;
+  width: 434px;
+  height: 73px;
+}
+
+.btnLogin{
+  margin-left: 267px;
+  margin-top: 52px;
+}
