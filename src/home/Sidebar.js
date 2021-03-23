@@ -1,5 +1,4 @@
 import React from 'react';
-import BlockContain from './BlockContain';
 import { SidebarData } from './SidebarData';
 
 function Sidebar(){

@@ -9,18 +9,12 @@ html, body, #root, .Login, .landing {
     height: 100vh;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
 .Sidebar.col {
     width: 100vw;
     height: 100vh;
     margin-right: 0%;
 }
+
 
 .Sidebarmenu{
     height: 1080px;

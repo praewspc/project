@@ -6,11 +6,22 @@ html , body , #root , .Login , .landing{
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .left.col , .right.col{
   width: 50%;
   height: 100%;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 15px;
+    padding-left: 15px;
+  
 }
 
 .loginrightblock {
@@ -19,13 +30,14 @@ html , body , #root , .Login , .landing{
   position: center;
 }
 
-img.rounded.mx-auto.d-block {
-  left: 225px;
-  width: 750px;
-  height: 406px;
-  position: center;
+.center {
+  display: block;
   margin-top: 337px;
+  width: 745px;
+  height: 406px;
+  margin-left: 200px;
 }
+
 
 
 .topic1 {

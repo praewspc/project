@@ -5,7 +5,7 @@ const LeftSide = () => {
     return (
         <div className="pic">
            
-            <img class="rounded mx-auto d-block " src="./img/picLogin.svg" alt="Chania"></img>
+            <img src="./img/picLogin.svg" class="center" ></img>
             
         </div>
     )
