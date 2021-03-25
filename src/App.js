@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import UserStore from './stores/UserStore' ;
+import LoginForm from './LoginForm';
+import InputField from './InputField' ;
+import SubmitButton from './SubmitButton';
 import {observer} from 'mobx-react' ;
 import './App.css';
 import './Home.css';
@@ -101,20 +104,32 @@ class App extends React.Component {
     else{
 
       if(UserStore.isLoggedIn){
-        return(
+        return (
           <div className="app">
-              <div className='container'>
-                <Route exact path="/home" component={Home} />
-              </div>
+            <div className='container'>
+            <Route exact path="/home" component={Home} />
+
+              
+
+            </div>
+            
           </div>
         );
       }
-      return (
-        <BrowserRouter>{this.renderRouter()}</BrowserRouter>
-      );
 
+       return (
+       
+            <BrowserRouter>{this.renderRouter()}</BrowserRouter>
+         
+      );
     }
+
+      
+        
+     
+
   }
 }
+
 
 export default observer (App);
